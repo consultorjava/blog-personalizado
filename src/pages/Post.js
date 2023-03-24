@@ -54,7 +54,7 @@ function Post() {
               <Comment
                 key = {c.id}
                 id = {c.id}
-                name = {c.name}
+                name = {c.name} 
                 email = {c.email}
                 body = {c.body}
                 />

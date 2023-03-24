@@ -17,7 +17,7 @@
   "homepage": "https://consultorjava.github.io/blog-personalizado",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
